@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node app.ts",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "doc": "jsdoc -r ./src"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,11 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
+<<<<<<< Updated upstream
+=======
+    "faker": "^5.5.3",
+    "jsdoc": "^3.6.7",
+>>>>>>> Stashed changes
     "uuid": "^8.3.2"
   }
 }
