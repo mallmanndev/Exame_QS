@@ -1,9 +1,6 @@
-import ToDoItem from "./ToDoItem";
-
 class ToDo {
     public id: string;
     public titulo: string;
-    public itens: ToDoItem[];
     public criado: Date;
     public deletado: Date;
 
