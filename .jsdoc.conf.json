@@ -1,6 +1,11 @@
 {
-    "source": {
-      "include": ["./src"]
-    }
+  "opts": {
+    "recurse": true,
+    "destination": "./dist/doc/" 
+  },
+  "source": {
+    "include": [
+      "./dist/src"
+    ]
   }
-  
+}

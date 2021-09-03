@@ -5,9 +5,9 @@
   "main": "app.ts",
   "scripts": {
     "start": "ts-node app.ts",
-    "build": "tsc",
+    "build": "tsc --outDir ./dist",
     "test": "jest",
-    "doc": "jsdoc -c ./.jsdoc.conf.json"
+    "doc": "jsdoc -r -c ./.jsdoc.conf.json"
   },
   "repository": {
     "type": "git",
