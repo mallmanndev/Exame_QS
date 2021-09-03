@@ -40,14 +40,6 @@ class GerenciarToDos {
     public procuraPeloId(id: string): ToDo | undefined {
         return this.toDos.find((toDo) => toDo.id === id)
     }
-
-    /*public listarTodos(): ToDo[] {
-        return this.toDos.filter((toDo) => !toDo.deletado)
-    }
-
-    public adicionarItem(): ToDoItem {
-        return;
-    }*/
 }
 
 export default GerenciarToDos;
