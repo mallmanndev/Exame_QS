@@ -1,0 +1,26 @@
+{
+  "name": "exame_qs",
+  "version": "1.0.0",
+  "description": "Repositório de desenvolvimento do exame de Qualidade de Software",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusvmallmann/Exame_QS.git"
+  },
+  "author": "Matheus Vinicius Mallmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusvmallmann/Exame_QS/issues"
+  },
+  "homepage": "https://github.com/matheusvmallmann/Exame_QS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
